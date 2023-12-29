@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(22, 71, 117);
+}
+
+body {
+  margin: 0;
+}
+
+/* nav bar */
+
+nav {
+  position: static;
+  background-color: rgb(13, 35, 64);
+  height: 100px;
+}
+
+div {
+  position: relative;
+  background-color: transparent;
+  display: block;
+  height: 50px;
+  width: 200px;
+  border: 2px solid rgb(34, 51, 107);
+
+  top: 25px;
+  left: 50px;
+}
+
+a {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent;
+  display: block;
+  font-weight: 100;
+  height: 20px;
+  color: rgb(130, 139, 165);
+  padding: 2px;
+  margin: 12px 27px;
+}
+
+/* banner */
+
+header {
+  height: 100px;
+  font-family: "Cascadia Code", Courier, monospace;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+/* headings */
+
+h1 {
+  font-family: "Cascadia Code", Courier, monospace;
+  position: relative;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.mediacontainer {
+  position: relative;
+  display: block;
+  height: 50px;
+  width: 100%;
+  top: 100px;
+  text-align: center;
+
+  border: 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: rgb(131, 255, 214, 0.7);
+}
+
+/* table styling */
+
+table {
+  border: 2px solid rgb(76, 169, 200, 0.6);
+  border-spacing: 10px;
+  display: table;
+  border-collapse: separate;
+  line-height: 3;
+  width: 1000px;
+  margin: 0% auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headings {
+  text-align: left;
+  font-size: 1.1em;
+  font-family: "Roboto", "Lucida Sans Regular", sans-serif;
+}
+
+th {
+  padding-left: 10px;
+  background-color: rgb(20, 66, 109);
+}
+.tag {
+  font-family: "Cascadia Code", Courier, monospace;
+  font-weight: 400;
+  color: aquamarine;
+  padding-left: 10px;
+}
+
+td {
+  border-top: 1px solid rgb(76, 169, 200, 0.7);
+}
+
+td.name {
+  color: rgb(255, 255, 255, 0.7);
+  font-weight: lighter;
+  padding-left: 10px;
+}
+
+td.description {
+  color: rgb(255, 255, 255, 0.7);
+  font-family: Roboto;
+  font-weight: 300;
+  padding-top: 2px;
+  padding-left: 10px;
+  top: 2px;
+}
+
+footer {
+  height: 150px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}

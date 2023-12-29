@@ -1,9 +1,152 @@
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Roboto+Mono:wght@200&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=Merriweather:ital@0;1&family=Roboto+Mono:wght@200&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="top">
+        <a class="sem">SEMANTIC HTML</a>
+      </div>
+    </nav>
 
-<body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+    <header>
+      <h1>&lt;Semantic&gt; HTML Reference</h1>
+    </header>
 
+    <!--Page Format Section-->
+    <h2>PAGE FORMAT TAGS</h2>
+    <table class="pagetags">
+      <thead>
+        <tr class="headings">
+          <th scope="col">Tag</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tag">&lt;header&gt;</td>
+          <td class="name">Header</td>
+          <td class="description">
+            Where you place the contents of the page header.
+          </td>
+        </tr>
+        <tr>
+          <td class="tag">&lt;nav&gt;</td>
+          <td class="name">Nav</td>
+          <td class="description">Used to specify the navigation bar.</td>
+        </tr>
+        <tr>
+          <td class="tag">&lt;main&gt;</td>
+          <td class="name">Main</td>
+          <td class="description">
+            To separate the main body of the page from the header and footer.
+          </td>
+        </tr>
+        <tr>
+          <td class="tag">&lt;header&gt;</td>
+          <td class="name">Header</td>
+          <td class="description">Description</td>
+        </tr>
+        <tr>
+          <td class="tag">&lt;footer&gt;</td>
+          <td class="name">Footer</td>
+          <td class="description">
+            The section at the bottom of a web page usually used for contact
+            information
+          </td>
+        </tr>
+        <tr>
+          <td class="tag">&lt;section&gt;</td>
+          <td class="name">Section</td>
+          <td class="description">
+            Defines elements in a document such as chapters headings or areas
+            with the same theme.
+          </td>
+        </tr>
+        <tr>
+          <td class="tag">&lt;article&gt;</td>
+          <td class="name">Article</td>
+          <td class="description">
+            Holds content that makes sense on its own such as articles, blogs,
+            commetnts etc.
+          </td>
+        </tr>
+        <tr>
+          <td class="tag">&lt;aside&gt;</td>
+          <td class="name">Aside</td>
+          <td class="description">
+            Contains information that is related to the main content but not
+            essential for understanding.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--Media Section-->
+
+    <div class="mediacontainer"></div>
+    <h2>MEDIA TAGS</h2>
+    <table class="mediatags">
+      <thead>
+        <tr class="headings">
+          <th scope="col">Tag</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tag">&lt;figure&gt;</td>
+          <td class="name">Figure</td>
+          <td class="description">Encapsulates all types of media.</td>
+        </tr>
+        <tr>
+          <td class="tag">&lt;figcaption&gt;</td>
+          <td class="name">Figcaption</td>
+          <td class="description">
+            Used to describe the media in &lt;figcaption&gt;.
+          </td>
+        </tr>
+        <tr>
+          <td class="tag">&lt;video&gt;</td>
+          <td class="name">Video</td>
+          <td class="description">Used to embed videos.</td>
+        </tr>
+        <tr>
+          <td class="tag">&lt;audio&gt;</td>
+          <td class="name">Audio</td>
+          <td class="description">Used to embed ausio.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+
+    <footer>
+      <p>Website produced by: Thomas Hendrey</p>
+    </footer>
+  </body>
 </html>
